@@ -45,6 +45,7 @@ public class DetailsAdapter extends RecyclerView.Adapter<DetailsAdapter.MyHolder
         return list.size();
     }
 
+
     class MyHolder extends RecyclerView.ViewHolder{
         TextView date,pname;
         public MyHolder(View itemView) {

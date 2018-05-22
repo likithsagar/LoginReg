@@ -28,6 +28,7 @@ public interface OnLogoutListner
     public void logoutPerform();
 }
     public HomeFragment() {
+    
         // Required empty public constructor
     }
 

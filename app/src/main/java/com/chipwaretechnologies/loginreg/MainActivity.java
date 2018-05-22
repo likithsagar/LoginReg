@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
             if(prefConfig.readLoginStatus())
             {
                 Thread myThread= new Thread(new mThread());
+
                 myThread.start();
             }
             else
